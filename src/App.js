@@ -1,4 +1,5 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useContext} from 'react';
+import ReactDOM from 'react-dom';
 import './App.css';
 
 export default function App(){
@@ -10,7 +11,6 @@ export default function App(){
   const [moeda, setMoeda] = useState([]);
   const [dados, setDados] = useState([]);
   
-
   async function obterMoeda()
   { 
     if (moeda=="") {
@@ -27,7 +27,7 @@ export default function App(){
         .catch(function (error) {
           console.error(`Houve um erro: ${error}`)
         });
-      }
+      } 
   }
 
   return(
@@ -64,7 +64,7 @@ export default function App(){
       <br></br>
       <p>Valor em Alta:<br></br>{dados.high}R$</p>
       <br></br>
-      <p>Valor em Baixa:<br></br>{dados.low}R$</p>   
+      <p>Valor em Baixa:<br></br>{dados.low}R$</p>
   </div>
 
   )
