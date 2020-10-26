@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/cotacaomoedas/static/css/main.b8a53ac2.chunk.css",
+    "main.js": "/cotacaomoedas/static/js/main.0e8a9d90.chunk.js",
+    "main.js.map": "/cotacaomoedas/static/js/main.0e8a9d90.chunk.js.map",
+    "runtime-main.js": "/cotacaomoedas/static/js/runtime-main.5eb58cda.js",
+    "runtime-main.js.map": "/cotacaomoedas/static/js/runtime-main.5eb58cda.js.map",
+    "static/js/2.02971619.chunk.js": "/cotacaomoedas/static/js/2.02971619.chunk.js",
+    "static/js/2.02971619.chunk.js.map": "/cotacaomoedas/static/js/2.02971619.chunk.js.map",
+    "index.html": "/cotacaomoedas/index.html",
+    "static/css/main.b8a53ac2.chunk.css.map": "/cotacaomoedas/static/css/main.b8a53ac2.chunk.css.map",
+    "static/js/2.02971619.chunk.js.LICENSE.txt": "/cotacaomoedas/static/js/2.02971619.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5eb58cda.js",
+    "static/js/2.02971619.chunk.js",
+    "static/css/main.b8a53ac2.chunk.css",
+    "static/js/main.0e8a9d90.chunk.js"
+  ]
+}
