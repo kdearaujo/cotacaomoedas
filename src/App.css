@@ -54,7 +54,7 @@ button{
     display: inline-block;
 }
 p{
-      text-align: center;
+      /* text-align: center; */
       font-size: 20px;
       font-family: 'Fira Sans', sans-serif;
 }
